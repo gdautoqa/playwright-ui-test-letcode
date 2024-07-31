@@ -36,7 +36,7 @@ This project aims to provide a comprehensive testing framework for Letcode using
 npm install
 
 3. Run tests:
-npx playwright test```
+npx playwright test
 
 ## CI/CD
 
