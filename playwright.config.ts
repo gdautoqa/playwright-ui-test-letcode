@@ -15,15 +15,15 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'Desktop Chrome',
+      name: 'chrome',
       use: { browserName: 'chromium' },
     },
     {
-      name: 'Desktop Firefox',
+      name: 'firefox',
       use: { browserName: 'firefox' },
     },
     {
-      name: 'Desktop Safari',
+      name: 'safari',
       use: { browserName: 'webkit' },
     },
     {
