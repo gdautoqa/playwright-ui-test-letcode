@@ -10,20 +10,21 @@ export default defineConfig({
   retries: 2,
   reporter: [['html', { open: 'never' }]],
   use: {
+    baseURL: 'https://letcode.in',
     trace: 'on-first-retry',
   },
   projects: [
     {
-      name: 'Chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'Desktop Chrome',
+      use: { browserName: 'chromium' },
     },
     {
-      name: 'Firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: 'Desktop Firefox',
+      use: { browserName: 'firefox' },
     },
     {
-      name: 'WebKit',
-      use: { ...devices['Desktop Safari'] },
+      name: 'Desktop Safari',
+      use: { browserName: 'webkit' },
     },
     {
       name: 'Pixel 7',

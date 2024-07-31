@@ -13,9 +13,7 @@
 
 ## Description
 
-This project aims to provide a comprehensive testing framework for Letcode using Playwright. It incorporates best practices and tools to ensure high-quality, maintainable, and scalable test automation.
-
-**Note:** This project is a work in progress.
+This project aims to provide a comprehensive testing framework for [Letcode](https://letcode.in/test) using Playwright. It incorporates best practices to ensure high-quality, maintainable, and scalable test automation.
 
 ## Getting Started
 
