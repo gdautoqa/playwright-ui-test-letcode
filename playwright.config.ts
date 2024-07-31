@@ -15,7 +15,7 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'chrome',
+      name: 'chromium',
       use: { browserName: 'chromium' },
     },
     {
@@ -23,7 +23,7 @@ export default defineConfig({
       use: { browserName: 'firefox' },
     },
     {
-      name: 'safari',
+      name: 'webkit',
       use: { browserName: 'webkit' },
     },
     {
