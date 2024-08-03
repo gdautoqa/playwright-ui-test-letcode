@@ -1,5 +1,5 @@
 {
-  "name": "playwright-boilerplate",
+  "name": "playwright-ui-test-letcode",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
